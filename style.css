@@ -1,0 +1,14 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #111;
+  padding: 30px;
+  
+  text-shadow: 
+    0 0 5px #00f2ff,
+    0 0 10px #00f2ff,
+    0 0 20px #00f2ff,
+    0 0 40px #00f2ff;
+}
