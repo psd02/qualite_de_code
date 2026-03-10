@@ -6,5 +6,6 @@ jobs:
   liste-fichiers:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
       - name: faire un ls (nan jure)
         run: ls --all
