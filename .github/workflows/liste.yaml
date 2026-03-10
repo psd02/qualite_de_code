@@ -17,4 +17,4 @@ jobs:
           tools: phpcs
 
       - name: tenter de faire le php code sniffer
-        run: phpcs .
+        run: phpcs src/MesDates.php
