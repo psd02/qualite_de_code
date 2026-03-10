@@ -1,0 +1,20 @@
+name: liste des trucs
+
+on: [push]
+
+jobs:
+  liste-fichiers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: faire un ls (nan jure)
+        run: ls --all
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          tools: phpcs
+
+      - name: tenter de faire le php code sniffer
+        run: phpcs src/MesDates.php
