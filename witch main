@@ -1,0 +1,35 @@
+* [33mfbfb14d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmes-dates[m[33m, [m[1;31morigin/mes-dates[m[33m)[m changement dans la commande
+* [33md6df328[m modification du workflow pour phpcs
+* [33mbaaeae0[m ajout php code sniffer
+* [33mbe82faf[m ajout des fichiers manquants + composer truc phpcs machin bidule
+* [33m1d846f0[m ajout checkout
+[31m|[m * [33ma073def[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m enlever le truc workflow
+[31m|[m[31m/[m  
+* [33m0afc4b2[m git add de tout + workflow
+* [33m8ab5792[m un &
+* [33mbfb841f[m Modification du README + amend
+*   [33m8562b74[m Merge pull request #4 from psd02/style
+[33m|[m[34m\[m  
+[33m|[m *   [33mfd37649[m[33m ([m[1;31morigin/style[m[33m)[m Merge branch 'main' into style
+[33m|[m [35m|[m[33m\[m  
+[33m|[m [35m|[m[33m/[m  
+[33m|[m[33m/[m[35m|[m   
+* [35m|[m [33m416050c[m titre plus grand et sans couleur de fond
+* [35m|[m [33ma2d10bb[m en fait c'était pas la bonne image sale con
+* [35m|[m [33m374b7a7[m ajout de l'image
+* [35m|[m   [33m28f7a4c[m Merge branch 'style'
+[1;31m|[m[1;32m\[m [35m\[m  
+* [1;32m|[m [35m|[m [33m1226bbe[m préparation a mettre l'image
+[1;32m|[m [1;32m|[m * [33me11a180[m autre couleur de fond
+[1;32m|[m [1;32m|[m[1;32m/[m  
+[1;32m|[m * [33m55f4165[m peut etre que ce va régler les problèmes de faire ca
+[1;32m|[m * [33m7ccc092[m j'ai pas d'idee de truc a faire
+[1;32m|[m[1;32m/[m  
+* [33m05d9005[m style du sous-titre
+* [33m53b3044[m style du titre
+* [33mdae108f[m nouveau message + ajout h2
+* [33m4fe78d3[m Modif index pour avoir un truc un peu plus complet parce que avant c'était vraiment trop nul
+* [33m0baaedf[m ajout index.html
+* [33mb51da07[m J'avais oublié un "n" :/ pardon
+* [33me1ca798[m Add greeting message to README
+* [33mbac93ea[m Initial commit
