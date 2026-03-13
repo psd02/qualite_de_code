@@ -10,6 +10,9 @@ jobs:
       - name: faire un ls (nan jure)
         run: ls --all
 
+      - name: Run PHP check script
+        run: php .github/scripts/check.php
+
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
