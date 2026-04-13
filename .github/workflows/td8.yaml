@@ -16,10 +16,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: |
-          npm install
-          npm install testcafe
+        run: npm install -g testcafe
 
       - name: Run TestCafe tests
-        run: |
-          npx testcafe chrome td8/tests/test.js
+        run: npx testcafe chrome td8/tests/test.js
