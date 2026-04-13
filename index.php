@@ -1,6 +1,5 @@
-<?php
+<?
 
-require_once "src/MesDates.php";
+phpinfo()
 
-$objDate = new \UPJV\MesDates();
-echo $objDate->demain();
+?>

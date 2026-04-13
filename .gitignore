@@ -1,1 +1,3 @@
 vendor
+.phpunit.cache
+td8/.node_modules

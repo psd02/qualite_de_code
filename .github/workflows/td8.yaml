@@ -1,0 +1,25 @@
+name: liste des trucs
+
+on: [push]
+
+jobs:
+  liste-fichiers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: faire un ls (nan jure)
+        run: ls --all
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install testcafe
+
+      - name: Run TestCafe tests
+        run: |
+          npx testcafe chrome td8/tests/test.js
