@@ -19,4 +19,4 @@ jobs:
         run: npm install -g testcafe
 
       - name: Run TestCafe tests
-        run: npx testcafe chrome:headless td8/tests/example.test.js
+        run: npx testcafe chrome:headless .
