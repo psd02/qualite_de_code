@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
 fixture('Test formulaire')
-    .page('http://localhost:80');
+    .page('http://localhost:8000');
 
 test('Doit afficher le nom en majuscule', async t => {
 

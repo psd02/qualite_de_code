@@ -18,5 +18,11 @@ jobs:
       - name: Install dependencies
         run: npm install -g testcafe
 
+      - name: Start PHP server
+        run: php -S localhost:8000 -t td8 &
+
+      - name: Wait for server
+        run: sleep 3
+
       - name: Run TestCafe tests
         run: npx testcafe chrome:headless .
