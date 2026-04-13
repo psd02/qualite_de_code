@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: faire un ls (nan jure)
-        run: ls --all
+        run: ls td8 --all
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
